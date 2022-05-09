@@ -1,0 +1,90 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.3);
+  background-color: #6b021d !important;
+}
+.navbar a {
+  font-weight: bold !important;
+}
+.navbar a:hover {
+  color: #cc9512 !important;
+}
+/* next buton */
+.right {
+  background-color: #6b021d !important;
+  border: none !important;
+  padding: 20px !important;
+  color: white !important;
+  font-weight: bolder;
+  background-color: #cc9512 !important;
+  border-radius: 0px !important;
+}
+.left {
+  background-color: #6b021d !important;
+  border: none !important;
+  padding: 20px !important;
+  color: white !important;
+  font-weight: bolder;
+  background-color: #cc9512 !important;
+  border-radius: 0px !important;
+}
+#poor {
+  height: 100vh;
+}
+#poor1 {
+  background: linear-gradient(135deg, #101010a5, #00000066),
+    url(/image/poor1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#poor2 {
+  background: linear-gradient(135deg, #0a0a0aa5, #0e0e0e66),
+    url(/image/poor2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.background-image {
+  background: linear-gradient(135deg, #434343a5, #55576166),
+    url(/image/feeding.jpg) no-repeat center center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.footer {
+  background-color: #4c5a7d !important;
+}
+.foot-a {
+  background-color: #4c5a7d !important;
+  list-style: decimal !important;
+}
+ul a {
+  color: #f4f4e9 !important;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .team h2 {
+    font-size: 30px !important;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .team h1 {
+    font-size: 40px !important;
+    margin-bottom: -20px;
+  }
+  .list-group-flush {
+    margin-left: -45px;
+  }
+}
